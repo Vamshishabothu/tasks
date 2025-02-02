@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>To-Do List</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Tasks List</h1>
+    </div>
+
+    <div class="icon">
+        <a href="#add-task-popup">
+            <span>➕</span>
+            Add New Task
+        </a>
+    </div>
+
+    <div class="parent"> 
+        <a href="#add-task-popup-paris"><div class="child">
+            <h3>Trip to Paris</h3>
+            <hr>
+            <ul>
+                <li><input type="checkbox" checked> <s>Visit Church</s></li>
+                <li><input type="checkbox">Shopping</li>
+            </ul>  
+        </div>
+    </a>
+
+    <a href="#add-task-popup-todo">
+        <div class="child">
+          
+            <h3>My To Do List</h3>
+            <hr>
+            <ul>
+                <li><input type="checkbox" checked> <s>Visit Supermarket</s></li>
+                <li><input type="checkbox">Buy Vegetables</li>
+            </ul>
+            
+        </div>
+    </a>
+
+    <a href="#add-task-popup-movie">
+        <div class="child">
+            <h3>Movies I will Watch</h3>
+            <hr>
+            <ul>
+                <li><input type="checkbox" checked> <s>Stranger Things 4</s></li>
+                <li><input type="checkbox">Avengers Endgame</li>
+            </ul>
+          
+        </div>
+    </a>
+
+    <a href="#add-task-popup-books">
+        <div class="child">
+            <h3>Daily Morning Routine</h3>
+            <hr>
+            <ul>
+                <li><input type="checkbox" checked> <s>Wake up at 6 AM</s></li>
+                <li><input type="checkbox">Sleep at 10 PM</li>
+            </ul>
+           
+        </div>
+    </a>
+
+    <a href="#add-task-popup-books">
+        <div class="child">
+            <h3>Books to Read</h3>
+            <hr>
+            <ul>
+                <li><input type="checkbox" checked> <s>Design of Everyday</s></li>
+                <li><input type="checkbox">Alchemist</li>
+            </ul>
+            
+        </div>
+    </a>
+    </div>
+
+    <!-- Popups for each task -->
+     
+    <div id="add-task-popup-paris" class="popup">
+        <div class="popup-content">
+            <a href="#" class="close">✖</a>
+            <h2>Add New Task</h2>
+            <input type="text" placeholder="Enter task name">
+            <a href="parisfirst.html" ><button>+ Add New Task </button></a>
+        </div>
+    </div>
+
+    <div id="add-task-popup-todo" class="popup">
+        <div class="popup-content">
+            <a href="#" class="close">✖</a>
+            <h2>Add New Task</h2>
+            <input type="text" placeholder="Enter task name">
+            <a href="todo.html" ><button>+ Add New Task</button></a>
+        </div>
+    </div>
+
+    <div id="add-task-popup-movie" class="popup">
+        <div class="popup-content">
+            <a href="#" class="close">✖</a>
+            <h2>Add New Task</h2>
+            <input type="text" placeholder="Enter task name">
+            <a href="movie.html" ><button>+ Add New Task</button></a>
+        </div>
+    </div>
+
+    <div id="add-task-popup-routline" class="popup">
+        <div class="popup-content">
+            <a href="#" class="close">✖</a>
+            <h2>Add New Task</h2>
+            <input type="text" placeholder="Enter task name">
+            <a href="routline.html" ><button>+ Add New Task</button></a>
+        </div>
+    </div>
+
+    <div id="add-task-popup-books" class="popup">
+        <div class="popup-content">
+            <a href="#" class="close">✖</a>
+            <h2>Add New Task</h2>
+            <input type="text" placeholder="Enter task name">
+            <a href="books.html" ><button>+ Add New Task</button></a>
+        </div>
+    </div>
+
+   
+    <!-- Global "Add Task" Popup -->
+    <div id="add-task-popup" class="popup">
+        <div class="popup-content">
+            <a href="#" class="close">✖</a>
+            <h2>Add New Task</h2>
+            <input type="text" placeholder="Enter task name">
+            <button>+ Add Task</button>
+        </div>
+    </div>
+</body>
+</html>

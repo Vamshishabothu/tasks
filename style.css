@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: aqua;
+    padding: 15px 30px;
+}
+.navbar h1 {
+    font-size: 24px;
+}
+.icon {
+    text-align: right;
+    padding: 10px 30px;
+}
+.icon a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    display: inline-flex;
+    align-items: center;
+}
+.icon a span {
+    margin-right: 8px;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.child {
+    background-color: antiquewhite;
+    border-radius: 6px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+}
+.child:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+h3 {
+    color: lightseagreen;
+    margin-bottom: 10px;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    margin: 10px 0;
+}
+ul li input[type="checkbox"] {
+    margin-right: 10px;
+}
+ul li s {
+    color: #888;
+}
+
+
+/* Popups */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.popup:target {
+    display: flex;
+    
+}
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    
+}
+.popup-content:hover{
+    box-shadow: 0px 0px 25px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.popup-content1 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+   padding: 20px;
+   margin: 0px 30vw;
+    
+}
+.popup-content h2 {
+    margin-bottom: 20px;
+}
+.popup-content input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.popup-content button {
+    padding: 10px 20px;
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.popup-content button:hover {
+    background-color: #1d7a7a;
+}
+.close {
+    display: block;
+    text-align: right;
+    color: #888;
+    text-decoration: none;
+    font-size: 20px;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+.popup-content1 > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    margin-left: auto;
+}
+.back{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    display: inline-flex;
+    align-items: center;
+}
